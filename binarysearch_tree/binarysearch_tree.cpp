@@ -42,12 +42,20 @@ public:
 
 		if (element < parent->info)//if the value in the data field of the new node is less than that of the parent
 		{
-			parent->leftchild = newNode;//make the child of hte parent to the new node
+			parent->leftchild = newNode;//make the child of the parent to the new node
 		}
 		else if (element > parent->info)//if the value in the data field of the new node is greater than that of the parent
 		{
 			parent->rightchild = newNode;///make the right child of the parent point to the new node
 		}
+	}
+
+	void search(string element, Node*& parent, Node*& currentNode)
+	{
+		//this function searches the currentNode of the specified Node as well as the current Node of its parent
+		currentNode = ROOT;
+		parent = NULL;
+		
 	}
 
 };
