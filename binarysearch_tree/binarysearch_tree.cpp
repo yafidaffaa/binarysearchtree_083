@@ -158,5 +158,7 @@ int main() {
 			cout << "invalid option" << endl;
 			break;
 		}
+
+		}
 	}
 }
