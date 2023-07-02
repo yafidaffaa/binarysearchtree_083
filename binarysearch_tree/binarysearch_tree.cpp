@@ -10,7 +10,7 @@ public:
 
 	//Constructor for the node class
 	Node(string i, Node* l, Node* r) {
-		info = 1;
+		info = i;
 		leftchild = l;
 		rightchild = r;
 	}
@@ -118,7 +118,7 @@ int main() {
 		cout << "3. perform preorder traversal" << endl;
 		cout << "4. perform postorder traversal" << endl;
 		cout << "5. exit" << endl;
-		cout << "\nenter your choic (1-5)" << endl;
+		cout << "\nenter your choice (1-5)" << endl;
 
 		char ch;
 		cin >> ch;
